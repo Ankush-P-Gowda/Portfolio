@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    display:grid;
+}
+.head{
+    border: 3px solid yellow;
+    width: 80vw;
+    height: 22vw;
+    margin: auto;
+    margin-top: 10vw;
+    font-size: 2vw;
+    z-index: 5;
+    display:grid;
+    display: flex;
+}
+.target-head{
+    width:50vw;
+    height:100%;
+    background-color: yellow;
+    text-transform: uppercase;
+    align-items: center;
+    display: grid;
+}
+img{
+    width:18vw;
+    height:90%;
+    align-self: center;
+    margin:auto;
+    filter: grayscale(100%);
+    object-fit: cover;
+    object-position: 0 25%;
+    border-radius: 100%;
+}
+.target-head h1,p{
+    margin-left:5vw;
+}  
+.target-head p{
+    align-self: start;
+    word-spacing: 0.5vw;
+    letter-spacing: 0.3vw;
+}
+.target-head h1{
+    align-self: end;
+    letter-spacing: 1.5vw;
+    margin-bottom: 1vw;
+}
+.side-content{
+    position: absolute;
+    width:35vw;
+    height:180vw;
+    background-color: black;
+    color:white;
+    top:0;
+    right:0;
+}
+.black{
+    position: absolute;
+    width:18vw;
+    height:35vw;
+    background-color: black;
+    color:white;
+    top:0;
+    left:0;
+}
+.yellow{
+    position: relative;
+    width:5vw;
+    height:145vw;
+    background-color: yellow;
+    color:white;
+    top:0;
+    right:0;
+    margin-top:3.1vw;
+}
+.side-list{
+    position: absolute;
+    top:37vw;
+    height:100%;
+    text-align: center;
+    font-size: 2vw;
+    display:grid;
+    grid-template-rows: 32vw 20vw 55vw 10vw;
+}
+i{
+    font-size: 3.5vw;
+    margin:3%;
+    color: yellow;
+}
+hr{
+    margin:1% auto;
+    border-color: black;
+}
+.side-list .contacts h3{
+    margin-left:20%;
+    margin-right:20%;
+    padding:2%;
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 0.2vw;
+    border-top:1px solid whitesmoke;
+    border-bottom:1px solid white;
+}
+.side-list .contacts p{
+    margin:0;
+    font-size: 1.5vw;
+}
+.side-list .education h3{
+    margin-left:20%;
+    margin-right:20%;
+    padding:2%;
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 0.2vw;
+    border-top:1px solid whitesmoke;
+    border-bottom:1px solid white;  
+}
+.side-list .education p:nth-of-type(1){
+    margin:5% auto;
+}
+.side-list .education p:nth-of-type(2){
+    margin:3% 10%;
+    text-transform: uppercase;
+    font-size:2vw;
+    word-spacing: 0.5vw;
+}
+.side-list .education p:nth-of-type(3){
+    margin:3% auto;
+    font-size:1.5vw;
+    word-spacing: 0.1vw;
+}
+.side-list .skills h3{
+    margin-left:20%;
+    margin-right:20%;
+    padding:2%;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2vw;
+    border-top:1px solid whitesmoke;
+    border-bottom:1px solid white;  
+}
+.side-list .skills .container1{
+    background-color: yellow;
+    line-height:4vw;
+    color: black;
+    margin: 5% 10%;
+    text-align: start;
+    display: flex;
+}
+.side-list .skills .container1 p{
+    margin-left:2vw;   
+}
+.side-list .skills .c span{
+    align-self: center;
+    width:9vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:9vw;   
+}
+.side-list .skills .cplus span{
+    align-self: center;
+    width:9vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:7vw;   
+}
+.side-list .skills .html span{
+    align-self: center;
+    width:9vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:5vw;   
+}
+.side-list .skills .css span{
+    align-self: center;
+    width:9vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:7vw;   
+}
+.side-list .skills .javascript span{
+    align-self: center;
+    width:6vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:1vw;   
+}
+.side-list .skills .jquery span{
+    align-self: center;
+    width:6vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:4.5vw;   
+}
+.side-list .skills .node span{
+    align-self: center;
+    width:6vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:3.5vw;   
+}
+.side-list .skills .mongodb span{
+    align-self: center;
+    width:6vw;
+    border-bottom: 0.5vw solid black;
+    margin-left:2vw;   
+}
+
+.side-list .projects h3{
+    margin-left:20%;
+    margin-right:20%;
+    padding:2%;
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 0.2vw;
+    border-top:1px solid whitesmoke;
+    border-bottom:1px solid white;  
+}
+.side-list .projects p{
+    margin:5% auto;
+}
+.profile{
+    width:55vw;
+    height:22vw;
+    position: absolute;
+    top:40vw;
+    left:7.5vw;
+    font-size:1.5vw;
+}
+.profile h3{
+    font-size: 2.5vw;
+    text-transform: uppercase;   
+}
+.profile p{
+    margin: 2vw 0;
+    word-spacing: 1vw;
+}
+.work-expierence{
+    position: absolute;
+    width:55vw;
+    top:62vw;
+    left:7.5vw;
+    font-size:1.5vw;
+}
+.work-expierence h3{
+    text-transform: uppercase;
+    font-size: 2.5vw;
+}
+.work-expierence .number{
+    justify-items: start;
+    margin-top:10px;
+    line-height: 2.5vw;
+    display:flex;
+}
+.period{ 
+    text-align: start;
+}
+.period p{
+    margin:0;
+}
+.details{
+    margin-left: 5vw;
+}
+.details h4{
+    font-size:2vw;
+    text-transform: uppercase;
+}
+.details p{
+    opacity: 0.7;
+    margin:0;
+}
+.details ul{
+    margin-left:2vw;
+}
